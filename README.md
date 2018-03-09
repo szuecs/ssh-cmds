@@ -14,4 +14,4 @@ process the information.
     host09;ii  nginx                               1.8.0-1~trusty                        amd64        high performance web server
 
 All connection failures will have lines with "ERR:" in the beginning,
-so you can easily drop not connectable hosts using "egreg -v '^ERR'".
+so you can easily drop not connectable hosts using "egrep -v '^ERR'".
